@@ -4,7 +4,7 @@ from itertools import combinations
 lines = [line.strip() for line in open(0)]
 
 rows = len(lines)
-cols = len(lines)
+cols = len(lines[0])
 
 
 def yield_points_on_line(r, c, dr, dc, include_source, max_line_len):
