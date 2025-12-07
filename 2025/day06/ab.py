@@ -1,5 +1,4 @@
 import math
-from re import X
 
 lines = open(0).read().rstrip('\n').split('\n')
 column_indexes = [i for i, c in enumerate(lines[-1]) if c != ' ']
